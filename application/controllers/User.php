@@ -21,7 +21,11 @@ class User extends CI_Controller {
         
     }
     
-    public function login(){
+    public function login(){  //หน้าล๊อคอิน
         $this->load->view('login_view');
+    }
+    
+    public function sigup(){
+        $this->load->view('sigup_view');
     }
 }
