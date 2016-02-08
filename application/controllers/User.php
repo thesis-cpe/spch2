@@ -26,6 +26,6 @@ class User extends CI_Controller {
     }
     
     public function sigup(){
-        $this->load->view('sigup_view');
+        $this->load->view('sigup_em_view');
     }
 }
