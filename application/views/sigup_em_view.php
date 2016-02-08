@@ -57,7 +57,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <!-- DOC: Apply "page-full-width" class to the body element to have full width page without the sidebar menu -->
 <body class="page-md page-header-fixed page-sidebar-closed-hide-logo">
 <!-- BEGIN HEADER -->
-<?php include_once 'template/header.php';?>
+<?php include_once  'template/header.php';?>
 <!-- END HEADER -->
 <div class="clearfix">
 </div>
