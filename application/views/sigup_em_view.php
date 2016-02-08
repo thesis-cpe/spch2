@@ -247,7 +247,7 @@ License: You must have a valid license purchased only from themeforest(the above
 											</li>
 											
 											<li>
-												<a href="#tab3" data-toggle="tab" class="step">
+												<a href="#tab4" data-toggle="tab" class="step">
 												<span class="number">
 												3 </span>
 												<span class="desc">
@@ -275,7 +275,7 @@ License: You must have a valid license purchased only from themeforest(the above
 													* </span>
 													</label>
 													<div class="col-md-4">
-														<input type="text" class="form-control" name="username"/>
+														<input type="text" class="form-control" name="username1"/>
 														<span class="help-block">
 														กำหนดชื่อผู้ใช้ของคุณ </span>
 													</div>
@@ -379,18 +379,18 @@ License: You must have a valid license purchased only from themeforest(the above
 												</div>
 											</div>
 										
-											<div class="tab-pane" id="tab3">
-												<h3 class="block">Confirm your account</h3>
+											<div class="tab-pane" id="tab4">
+												<h3 class="block">ยืนยันข้อมูล</h3>
 												<h4 class="form-section">Account</h4>
 												<div class="form-group">
-													<label class="control-label col-md-3">Username:</label>
+													<label class="control-label col-md-3">ชื่อผู้ใช้:</label>
 													<div class="col-md-4">
-														<p class="form-control-static" data-display="username">
+														<p class="form-control-static" data-display="username1">
 														</p>
 													</div>
 												</div>
 												<div class="form-group">
-													<label class="control-label col-md-3">Email:</label>
+													<label class="control-label col-md-3">อีเมล์:</label>
 													<div class="col-md-4">
 														<p class="form-control-static" data-display="email">
 														</p>
@@ -398,49 +398,43 @@ License: You must have a valid license purchased only from themeforest(the above
 												</div>
 												<h4 class="form-section">Profile</h4>
 												<div class="form-group">
-													<label class="control-label col-md-3">Fullname:</label>
+													<label class="control-label col-md-3">ชื่อเต็ม:</label>
 													<div class="col-md-4">
 														<p class="form-control-static" data-display="fullname">
 														</p>
 													</div>
 												</div>
 												<div class="form-group">
-													<label class="control-label col-md-3">Gender:</label>
+													<label class="control-label col-md-3">เพศ:</label>
 													<div class="col-md-4">
 														<p class="form-control-static" data-display="gender">
 														</p>
 													</div>
 												</div>
 												<div class="form-group">
-													<label class="control-label col-md-3">Phone:</label>
+													<label class="control-label col-md-3">โทรศัพท์:</label>
 													<div class="col-md-4">
 														<p class="form-control-static" data-display="phone">
 														</p>
 													</div>
 												</div>
 												<div class="form-group">
-													<label class="control-label col-md-3">Address:</label>
+													<label class="control-label col-md-3">ที่อยู่:</label>
 													<div class="col-md-4">
 														<p class="form-control-static" data-display="address">
 														</p>
 													</div>
 												</div>
 												<div class="form-group">
-													<label class="control-label col-md-3">City/Town:</label>
+													<label class="control-label col-md-3">เมือง:</label>
 													<div class="col-md-4">
 														<p class="form-control-static" data-display="city">
 														</p>
 													</div>
 												</div>
+												
 												<div class="form-group">
-													<label class="control-label col-md-3">Country:</label>
-													<div class="col-md-4">
-														<p class="form-control-static" data-display="country">
-														</p>
-													</div>
-												</div>
-												<div class="form-group">
-													<label class="control-label col-md-3">Remarks:</label>
+													<label class="control-label col-md-3">หมายเหตุ:</label>
 													<div class="col-md-4">
 														<p class="form-control-static" data-display="remarks">
 														</p>
