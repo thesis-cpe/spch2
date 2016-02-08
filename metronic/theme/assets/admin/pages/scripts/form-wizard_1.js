@@ -10,7 +10,7 @@ var FormWizard = function () {
 
             function format(state) {
                 if (!state.id) return state.text; // optgroup
-                return "<img class='flag' src='<?php echo base_url();?>metronic/theme/assets/global/img/flags/" + state.id.toLowerCase() + ".png'/>&nbsp;&nbsp;" + state.text;
+                return "<img class='flag' src='../../assets/global/img/flags/" + state.id.toLowerCase() + ".png'/>&nbsp;&nbsp;" + state.text;
             }
 
             $("#country_list").select2({
@@ -70,7 +70,28 @@ var FormWizard = function () {
                     country: {
                         required: true
                     },
-                    
+                    //payment
+                    card_name: {
+                        required: true
+                    },
+                    card_number: {
+                        minlength: 16,
+                        maxlength: 16,
+                        required: true
+                    },
+                    card_cvc: {
+                        digits: true,
+                        required: true,
+                        minlength: 3,
+                        maxlength: 4
+                    },
+                    card_expiry_date: {
+                        required: true
+                    },
+                    'payment[]': {
+                        required: true,
+                        minlength: 1
+                    }
                 },
 
                 messages: { // custom messages for radio buttons and checkboxes
