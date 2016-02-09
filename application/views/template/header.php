@@ -17,8 +17,8 @@
 		<!-- END RESPONSIVE MENU TOGGLER -->
 		<!-- BEGIN PAGE ACTIONS -->
 		<!-- DOC: Remove "hide" class to enable the page header actions -->
-		<div class="page-actions">
-			<div class="btn-group">
+	  	<div class="page-actions">
+		   <!--	<div class="btn-group">
 				<button type="button" class="btn red-haze btn-sm dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
 				<span class="hidden-sm hidden-xs">Actions&nbsp;</span><i class="fa fa-angle-down"></i>
 				</button>
@@ -48,7 +48,11 @@
 						</a>
 					</li>
 				</ul>
-			</div>
+			</div>  -->
+                    <!--เพิ่มชื่อ-->
+                  <!--  <div style="height: 30px"  class="label label-info"><b style="font-family: inherit; font-size: 28px">Kan Accounting and Tax</b></div> -->
+                   
+                    <!--.เพิ่มชื่อ-->
 		</div>
 		<!-- END PAGE ACTIONS -->
 		<!-- BEGIN PAGE TOP -->
