@@ -34,7 +34,7 @@ var FormWizard = function () {
                 focusInvalid: false, // do not focus the last invalid input
                 rules: {
                     //account
-                    username: {
+                    username1: {
                         minlength: 5,
                         required: true
                     },
@@ -61,15 +61,15 @@ var FormWizard = function () {
                     gender: {
                         required: true
                     },
-                    address: {
+                    addr: {
                         required: true
                     },
-                    city: {
+                    company: {
                         required: true
                     },
-                    country: {
+                   /* country: {
                         required: true
-                    },
+                    }, */
                     
                 },
 

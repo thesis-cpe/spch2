@@ -262,7 +262,7 @@ License: You must have a valid license purchased only from themeforest(the above
 										<div class="tab-content">
 											<div class="alert alert-danger display-none">
 												<button class="close" data-dismiss="alert"></button>
-												You have some form errors. Please check below.
+												โปรดตรวจสอบข้อมูลว่าครบถ้วนหรือไม่
 											</div>
 											<div class="alert alert-success display-none">
 												<button class="close" data-dismiss="alert"></button>
@@ -320,7 +320,7 @@ License: You must have a valid license purchased only from themeforest(the above
 													<div class="col-md-4">
 														<input type="text" class="form-control" name="fullname"/>
 														<span class="help-block">
-														ระบุชื่อเต็มของคุณ </span>
+														ระบุชื่อเต็มของผู้ใช้งาน </span>
 													</div>
 												</div>
 												<div class="form-group">
@@ -351,23 +351,24 @@ License: You must have a valid license purchased only from themeforest(the above
 													</div>
 												</div>
 												<div class="form-group">
+													<label class="control-label col-md-3">หน่วยงาน <span class="required">
+													* </span>
+													</label>
+													<div class="col-md-4">
+														<input type="text" class="form-control" name="company"/>
+														<span class="help-block">
+														ระบุหน่วยงาน </span>
+													</div>
+												</div>
+												<div class="form-group">
 													<label class="control-label col-md-3">ที่อยู่ <span class="required">
 													* </span>
 													</label>
 													<div class="col-md-4">
-														<input type="text" class="form-control" name="address"/>
+													<!--	<input type="text" class="form-control" name="city"/> -->
+                                                                                                                <textarea class="form-control" rows="5" name="addr"></textarea>
 														<span class="help-block">
 														ระบุที่อยู่ของคุณ </span>
-													</div>
-												</div>
-												<div class="form-group">
-													<label class="control-label col-md-3">เมือง <span class="required">
-													* </span>
-													</label>
-													<div class="col-md-4">
-														<input type="text" class="form-control" name="city"/>
-														<span class="help-block">
-														ระบุเมืองที่คุณอาศัย </span>
 													</div>
 												</div>
 												
@@ -381,7 +382,7 @@ License: You must have a valid license purchased only from themeforest(the above
 										
 											<div class="tab-pane" id="tab4">
 												<h3 class="block">ยืนยันข้อมูล</h3>
-												<h4 class="form-section">Account</h4>
+												<h4 class="form-section">ข้อมูลบัญชี</h4>
 												<div class="form-group">
 													<label class="control-label col-md-3">ชื่อผู้ใช้:</label>
 													<div class="col-md-4">
@@ -396,7 +397,7 @@ License: You must have a valid license purchased only from themeforest(the above
 														</p>
 													</div>
 												</div>
-												<h4 class="form-section">Profile</h4>
+												<h4 class="form-section">ข้อมูลติดต่อ</h4>
 												<div class="form-group">
 													<label class="control-label col-md-3">ชื่อเต็ม:</label>
 													<div class="col-md-4">
@@ -419,16 +420,16 @@ License: You must have a valid license purchased only from themeforest(the above
 													</div>
 												</div>
 												<div class="form-group">
-													<label class="control-label col-md-3">ที่อยู่:</label>
+													<label class="control-label col-md-3">หน่วยงาน:</label>
 													<div class="col-md-4">
-														<p class="form-control-static" data-display="address">
+														<p class="form-control-static" data-display="company">
 														</p>
 													</div>
 												</div>
 												<div class="form-group">
-													<label class="control-label col-md-3">เมือง:</label>
+													<label class="control-label col-md-3">ที่อยู่:</label>
 													<div class="col-md-4">
-														<p class="form-control-static" data-display="city">
+														<p class="form-control-static" data-display="addr">
 														</p>
 													</div>
 												</div>
