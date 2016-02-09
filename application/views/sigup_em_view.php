@@ -18,7 +18,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <!-- BEGIN HEAD -->
 <head>
 <meta charset="utf-8"/>
-<title>Metronic | Form Stuff - Form Wizard</title>
+<title>ระบบรายงานผลดำเนินงาน</title>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <meta http-equiv="Content-type" content="text/html; charset=utf-8">
@@ -210,18 +210,18 @@ License: You must have a valid license purchased only from themeforest(the above
 					<div class="portlet box blue" id="form_wizard_1">
 						<div class="portlet-title">
 							<div class="caption">
-								<i class="fa fa-gift"></i> Form Wizard - <span class="step-title">
-								Step 1 of 4 </span>
+								<i class="fa fa-user"></i> ลงทะเบียนพนักงาน - <span class="step-title">
+								Step 1 of 3</span>
 							</div>
 							<div class="tools hidden-xs">
 								<a href="javascript:;" class="collapse">
 								</a>
-								<a href="#portlet-config" data-toggle="modal" class="config">
-								</a>
+							<!--	<a href="#portlet-config" data-toggle="modal" class="config">
+								</a> -->
 								<a href="javascript:;" class="reload">
 								</a>
-								<a href="javascript:;" class="remove">
-								</a>
+							<!--	<a href="javascript:;" class="remove">
+								</a>  -->
 							</div>
 						</div>
 						<div class="portlet-body form">
