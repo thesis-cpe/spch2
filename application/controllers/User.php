@@ -21,7 +21,7 @@ class User extends CI_Controller {
     }
 
     public function login() {  //หน้าล๊อคอิน
-        $this->load->view('login_view');
+        $this->load->view('user/login_view');
     }
 
     public function logout() { //ออกจากระบบ
@@ -30,7 +30,8 @@ class User extends CI_Controller {
     /* นำเข้าข้อมูล */
 
     public function sigup_em() {  //สมัครพนักงาน
-        $this->load->view('sigup_em_view');
+        //$this->load->view('user/sigup_em_view');
+        $this->load->view('layout_blank_page');
     }
 
     public function sigup_cus() { //สมัครลูกค้า
