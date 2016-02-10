@@ -13,7 +13,7 @@ class Data extends CI_Controller {
     /* นำเข้า */
 
     public function add() {
-        $this->load->view('layout_blank_page');
+        $this->load->view('data/insert_data_view');
     }
 
     /* แก้ไข */

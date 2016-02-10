@@ -196,7 +196,165 @@
 			<!-- BEGIN PAGE CONTENT-->
 			<div class="row">
 				<div class="col-md-12">
-					 Page content goes here
+					 <!--เนื้อหา-->
+                                         <div class="portlet box green">
+						<div class="portlet-title">
+							<div class="caption">
+                                                            <i class="fa  fa-file"></i><label>บันทึกข้อมูล</label>
+							</div>
+							<div class="tools">
+								<a href="javascript:;" class="collapse" data-original-title="" title="">
+								</a>
+								<a href="#portlet-config" data-toggle="modal" class="config" data-original-title="" title="">
+								</a>
+							</div>
+						</div>
+						<div class="portlet-body">
+							<ul class="nav nav-tabs">
+								<li class="active">
+									<a href="#tab_1_1" data-toggle="tab" aria-expanded="true">
+									สาขา 1 </a>
+								
+                                                                </li>
+								<li class="">
+									<a href="#tab_1_2" data-toggle="tab" aria-expanded="false">
+									สาขา 2 </a>
+								</li>
+								
+							</ul>
+							<div class="tab-content">
+								<div class="tab-pane fade active in" id="tab_1_1">
+									<p>
+										 เนื้อหา tab1
+                                                                                 <!--Accordions-->
+                                                                                 <div class="panel-group accordion" id="accordion3">
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+										<a class="accordion-toggle accordion-toggle-styled collapsed" data-toggle="collapse" data-parent="#accordion3" href="#collapse_3_1" aria-expanded="false">
+										Collapsible Group Item #1 </a>
+										</h4>
+									</div>
+									<div id="collapse_3_1" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+										<div class="panel-body">
+											เนื้อหา
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+										<a class="accordion-toggle accordion-toggle-styled collapsed" data-toggle="collapse" data-parent="#accordion3" href="#collapse_3_2" aria-expanded="false">
+										Collapsible Group Item #2 </a>
+										</h4>
+									</div>
+									<div id="collapse_3_2" class="panel-collapse collapse" aria-expanded="false">
+										<div class="panel-body" >
+											เนื้อหา
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+										<a class="accordion-toggle accordion-toggle-styled collapsed" data-toggle="collapse" data-parent="#accordion3" href="#collapse_3_3" aria-expanded="false">
+										Collapsible Group Item #3 </a>
+										</h4>
+									</div>
+									<div id="collapse_3_3" class="panel-collapse collapse" aria-expanded="false">
+										<div class="panel-body">
+											เนื้อหา
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+										<a class="accordion-toggle accordion-toggle-styled collapsed" data-toggle="collapse" data-parent="#accordion3" href="#collapse_3_4" aria-expanded="false">
+										Collapsible Group Item #4 </a>
+										</h4>
+									</div>
+									<div id="collapse_3_4" class="panel-collapse collapse" aria-expanded="false">
+										<div class="panel-body">
+											เนื้อหา
+										</div>
+									</div>
+								</div>
+							</div>
+                                                                                 <!--.Accordions-->
+									</p>
+								</div>
+								<div class="tab-pane fade" id="tab_1_2">
+									<p>
+										 เนื้อหา tab2
+                                                                                 <!--ที่เพิ่ม-->
+                                                                                 <div class="panel-group accordion" id="accordion3">
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+										<a class="accordion-toggle accordion-toggle-styled collapsed" data-toggle="collapse" data-parent="#accordion3" href="#collapse_3_1" aria-expanded="false">
+										Collapsible Group Item #1 </a>
+										</h4>
+									</div>
+									<div id="collapse_4_1" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+										<div class="panel-body">
+											เนื้อหา
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+										<a class="accordion-toggle accordion-toggle-styled collapsed" data-toggle="collapse" data-parent="#accordion3" href="#collapse_3_2" aria-expanded="false">
+										Collapsible Group Item #2 </a>
+										</h4>
+									</div>
+									<div id="collapse_4_2" class="panel-collapse collapse" aria-expanded="false">
+										<div class="panel-body" style="height:200px; overflow-y:auto;">
+											เนื้อหา
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+										<a class="accordion-toggle accordion-toggle-styled collapsed" data-toggle="collapse" data-parent="#accordion3" href="#collapse_3_3" aria-expanded="false">
+										Collapsible Group Item #3 </a>
+										</h4>
+									</div>
+									<div id="collapse_4_3" class="panel-collapse collapse" aria-expanded="false">
+										<div class="panel-body">
+											เนื้อหา
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+										<a class="accordion-toggle accordion-toggle-styled collapsed" data-toggle="collapse" data-parent="#accordion3" href="#collapse_4_4" aria-expanded="false">
+										Collapsible Group Item #4 </a>
+										</h4>
+									</div>
+									<div id="collapse_4_4" class="panel-collapse collapse" aria-expanded="false">
+										<div class="panel-body">
+											เนื้อหา
+										</div>
+									</div>
+								</div>
+							</div>
+                                                                                 <!--ที่เพิ่ม-->
+									</p>
+								</div>
+								
+								
+							</div>
+							<div class="clearfix margin-bottom-20">
+							</div>
+			
+							
+						</div>
+					</div>
+                                         <!--.เนือ้หา-->
 				</div>
 			</div>
 			<!-- END PAGE CONTENT-->

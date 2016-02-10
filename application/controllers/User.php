@@ -31,7 +31,7 @@ class User extends CI_Controller {
 
     public function sigup_em() {  //สมัครพนักงาน
         //$this->load->view('user/sigup_em_view');
-        $this->load->view('layout_blank_page');
+        $this->load->view('user/sigup_em_view');
     }
 
     public function sigup_cus() { //สมัครลูกค้า
