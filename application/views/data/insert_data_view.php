@@ -227,12 +227,13 @@
 									<p>
 										 เนื้อหา tab1
                                                                                  <!--Accordions-->
-                                                                                 <div class="panel-group accordion" id="accordion3">
+                                                                              <!--   <div class="panel-group accordion" id="accordion3"> -->
+                                                                        <div class="panel-group accordion" >
 								<div class="panel panel-default">
 									<div class="panel-heading">
 										<h4 class="panel-title">
 										<a class="accordion-toggle accordion-toggle-styled collapsed" data-toggle="collapse" data-parent="#accordion3" href="#collapse_3_1" aria-expanded="false">
-										Collapsible Group Item #1 </a>
+										ไอเทม #1 </a>
 										</h4>
 									</div>
 									<div id="collapse_3_1" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
@@ -245,7 +246,7 @@
 									<div class="panel-heading">
 										<h4 class="panel-title">
 										<a class="accordion-toggle accordion-toggle-styled collapsed" data-toggle="collapse" data-parent="#accordion3" href="#collapse_3_2" aria-expanded="false">
-										Collapsible Group Item #2 </a>
+										ไอเทม #2 </a>
 										</h4>
 									</div>
 									<div id="collapse_3_2" class="panel-collapse collapse" aria-expanded="false">
@@ -258,7 +259,7 @@
 									<div class="panel-heading">
 										<h4 class="panel-title">
 										<a class="accordion-toggle accordion-toggle-styled collapsed" data-toggle="collapse" data-parent="#accordion3" href="#collapse_3_3" aria-expanded="false">
-										Collapsible Group Item #3 </a>
+										ไอเทม #3 </a>
 										</h4>
 									</div>
 									<div id="collapse_3_3" class="panel-collapse collapse" aria-expanded="false">
@@ -271,7 +272,7 @@
 									<div class="panel-heading">
 										<h4 class="panel-title">
 										<a class="accordion-toggle accordion-toggle-styled collapsed" data-toggle="collapse" data-parent="#accordion3" href="#collapse_3_4" aria-expanded="false">
-										Collapsible Group Item #4 </a>
+										ไอเทม #4 </a>
 										</h4>
 									</div>
 									<div id="collapse_3_4" class="panel-collapse collapse" aria-expanded="false">
@@ -288,7 +289,8 @@
 									<p>
 										 เนื้อหา tab2
                                                                                  <!--ที่เพิ่ม-->
-                                                                                 <div class="panel-group accordion" id="accordion3">
+                                                                              <!--   <div class="panel-group accordion" id="accordion3"> -->
+                                                                              <div class="panel-group accordion" >
 								<div class="panel panel-default">
 									<div class="panel-heading">
 										<h4 class="panel-title">
