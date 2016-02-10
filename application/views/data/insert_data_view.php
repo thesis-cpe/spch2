@@ -292,7 +292,7 @@
 								<div class="panel panel-default">
 									<div class="panel-heading">
 										<h4 class="panel-title">
-										<a class="accordion-toggle accordion-toggle-styled collapsed" data-toggle="collapse" data-parent="#accordion3" href="#collapse_3_1" aria-expanded="false">
+										<a class="accordion-toggle accordion-toggle-styled collapsed" data-toggle="collapse" data-parent="#accordion3" href="#collapse_4_1" aria-expanded="false">
 										กลุ่ม #1 </a>
 										</h4>
 									</div>
@@ -305,12 +305,12 @@
 								<div class="panel panel-default">
 									<div class="panel-heading">
 										<h4 class="panel-title">
-										<a class="accordion-toggle accordion-toggle-styled collapsed" data-toggle="collapse" data-parent="#accordion3" href="#collapse_3_2" aria-expanded="false">
+										<a class="accordion-toggle accordion-toggle-styled collapsed" data-toggle="collapse" data-parent="#accordion3" href="#collapse_4_2" aria-expanded="false">
 										กลุ่ม #2 </a>
 										</h4>
 									</div>
 									<div id="collapse_4_2" class="panel-collapse collapse" aria-expanded="false">
-										<div class="panel-body" style="height:200px; overflow-y:auto;">
+										<div class="panel-body" >
 											เนื้อหา
 										</div>
 									</div>
@@ -318,7 +318,7 @@
 								<div class="panel panel-default">
 									<div class="panel-heading">
 										<h4 class="panel-title">
-										<a class="accordion-toggle accordion-toggle-styled collapsed" data-toggle="collapse" data-parent="#accordion3" href="#collapse_3_3" aria-expanded="false">
+										<a class="accordion-toggle accordion-toggle-styled collapsed" data-toggle="collapse" data-parent="#accordion3" href="#collapse_4_3" aria-expanded="false">
 										กลุ่ม #3 </a>
 										</h4>
 									</div>
