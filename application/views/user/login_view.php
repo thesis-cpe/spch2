@@ -53,7 +53,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <!-- BEGIN LOGO -->
 <div class="logo">
 	<a href="index.html">
-	<img src="<?php echo base_url();?>metronic/theme/assets/admin/layout4/img/logo-big.png" alt=""/>
+	<!--<img src="<?php echo base_url();?>metronic/theme/assets/admin/layout4/img/logo-big.png" alt=""/> -->
 	</a>
 </div>
 <!-- END LOGO -->
@@ -127,7 +127,7 @@ License: You must have a valid license purchased only from themeforest(the above
 	<!-- END REGISTRATION FORM -->
 </div>
 <div class="copyright">
-	 2016 © KAN Accounting and Tax . System Name.
+	<!-- 2016 © KAN Accounting and Tax . System Name.  -->
 </div>
 <!-- END LOGIN -->
 <!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
