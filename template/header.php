@@ -59,14 +59,14 @@
 		<div class="page-top">
 			<!-- BEGIN HEADER SEARCH BOX -->
 			<!-- DOC: Apply "search-form-expanded" right after the "search-form" class to have half expanded search box -->
-			<form class="search-form" action="extra_search.html" method="GET">
+			<!--<form class="search-form" action="extra_search.html" method="GET">
 				<div class="input-group">
 					<input type="text" class="form-control input-sm" placeholder="Search..." name="query">
 					<span class="input-group-btn">
 					<a href="javascript:;" class="btn submit"><i class="icon-magnifier"></i></a>
 					</span>
 				</div>
-			</form>
+			</form>  -->
 			<!-- END HEADER SEARCH BOX -->
 			<!-- BEGIN TOP NAVIGATION MENU -->
 			<div class="top-menu">
@@ -279,7 +279,7 @@
 					</li>
 					<!-- BEGIN TODO DROPDOWN -->
 					<!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
-					<li class="dropdown dropdown-extended dropdown-tasks dropdown-dark" id="header_task_bar">
+				<!--	<li class="dropdown dropdown-extended dropdown-tasks dropdown-dark" id="header_task_bar">
 						<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
 						<i class="icon-calendar"></i>
 						<span class="badge badge-primary">
@@ -372,7 +372,7 @@
 								</ul>
 							</li>
 						</ul>
-					</li>
+					</li> -->
 					<!-- END TODO DROPDOWN -->
 					<!-- BEGIN USER LOGIN DROPDOWN -->
 					<!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
@@ -388,22 +388,22 @@
 								<a href="extra_profile.html">
 								<i class="icon-user"></i> My Profile </a>
 							</li>
-							<li>
+						<!--	<li>
 								<a href="page_calendar.html">
 								<i class="icon-calendar"></i> My Calendar </a>
-							</li>
+							</li> -->
 							<li>
 								<a href="inbox.html">
 								<i class="icon-envelope-open"></i> My Inbox <span class="badge badge-danger">
 								3 </span>
 								</a>
 							</li>
-							<li>
+						<!--	<li>
 								<a href="page_todo.html">
 								<i class="icon-rocket"></i> My Tasks <span class="badge badge-success">
 								7 </span>
 								</a>
-							</li>
+							</li> -->
 							<li class="divider">
 							</li>
 							<li>
