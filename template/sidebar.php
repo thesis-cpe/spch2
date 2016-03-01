@@ -60,7 +60,7 @@
 					</a>
                                     <ul class="sub-menu">
                                         <li>
-                                            <a href="#">
+                                            <a href="<?php echo site_url()?>/data/assets">
                                                 <i class="icon-link"></i>
                                                 <b class="cloudFont" style="font-size: 15px">บันทึกรายได้รายจ่าย</b>
                                             </a>
