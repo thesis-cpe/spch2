@@ -13,39 +13,39 @@
 				<li class="start ">
 					<a href="index.html">
 					<i class="icon-home"></i>
-					<span class="title">หน้าแรก</span>
+                                        <span class="title cloudFont" style="font-size: 16px"><b>หน้าแรก</b></span>
 					</a>
 				</li>
 			<!--ใส่เมนูเพิ่มเติมตรงนี้-->
                                 <li>  <!--ตั้งค่าระบบ-->
                                     <a href="javascript:;">
                                         <i class="icon-settings"></i>
-                                        <span class="title">ตั้งค่าระบบ</span>
+                                        <span class="title cloudFont"style="font-size: 16px"><b>ตั้งค่าระบบ</b></span>
                                         <span class="arrow"></span>
                                     </a>
                                     <ul class="sub-menu">
                                         <li>
                                             <a href="#">
                                                 <i class="icon-link"></i>
-                                                บริหารสิทธิ์
+                                                <b class="cloudFont" style="font-size: 15px">บริหารสิทธิ์ผู้ใช้งาน</b>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
                                                 <i class="icon-link"></i>
-                                                บริหารสาขา
+                                                <b class="cloudFont" style="font-size: 15px" >จัดการสำนักงานย่อย</b>
                                             </a>
                                         </li>
                                          <li>
                                             <a href="#">
                                                 <i class="icon-link"></i>
-                                                บริหารพนักงาน
+                                                <b class="cloudFont" style="font-size: 15px"  >เพิ่มลบพนักงาน</b>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
                                                 <i class="icon-link"></i>
-                                                บริหารข้อมูล
+                                                <b class="cloudFont" style="font-size: 15px">เพิ่มลบรายการข้อมูล</b>
                                             </a>
                                         </li>
                                     </ul>
@@ -53,36 +53,51 @@
                                 </li><!--.ตั้งค่าระบบ-->
                                 <!--บันทึกข้อมูล-->
                                 <li>
-					<a href="index.html">
+					<a href="javascript:;">
 					<i class="icon-docs"></i>
-					<span class="title">นำเข้าข้อมูล</span>
+                                        <span class="title"><b class="cloudFont" style="font-size: 16px">ข้อมูล</b></span>
+                                        <span class="arrow"></span>
 					</a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a href="#">
+                                                <i class="icon-link"></i>
+                                                <b class="cloudFont" style="font-size: 15px">บันทึกรายได้รายจ่าย</b>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="icon-link"></i>
+                                                <b class="cloudFont" style="font-size: 15px">บันทึกงานที่ทำ</b>
+                                            </a>
+                                        </li>
+                                    </ul>
 				</li>
                                 <!--บันทึกข้อมูล-->
 				<!--ผล-->
                                 <li>  <!--ตั้งค่าระบบ-->
                                     <a href="javascript:;">
                                         <i class="icon-bar-chart"></i>
-                                        <span class="title">รายงาน</span>
+                                        <span class="title"><b class="cloudFont" style="font-size: 16px">รายงาน</b></span>
                                         <span class="arrow"></span>
                                     </a>
                                     <ul class="sub-menu">
                                         <li>
                                             <a href="#">
                                                 <i class="icon-link"></i>
-                                                รายวัน
+                                                <b class="cloudFont" style="font-size: 15px">รายวัน</b>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
                                                 <i class="icon-link"></i>
-                                                รายเดือน
+                                                <b class="cloudFont" style="font-size: 15px">รายเดือน</b>
                                             </a>
                                         </li>
                                          <li>
                                             <a href="#">
                                                 <i class="icon-link"></i>
-                                                รายปี
+                                                <b class="cloudFont" style="font-size: 15px">รายปี</b>
                                             </a>
                                         </li>
                                         
@@ -95,26 +110,32 @@
                                 <li>  <!--ตั้งค่าระบบ-->
                                     <a href="javascript:;">
                                         <i class="icon-support"></i>
-                                        <span class="title">ช่วยเหลือ</span>
+                                        <span class="title"><b class="cloudFont" style="font-size: 16px">ช่วยเหลือ</b></span>
                                         <span class="arrow"></span>
                                     </a>
                                     <ul class="sub-menu">
                                         <li>
-                                            <a href="#">
+                                            <a href="<?php echo site_url();?>/help/manual">
                                                 <i class="icon-link"></i>
-                                                คู่มือ
+                                                <b class="cloudFont" style="font-size: 15px">วิธีใช้งาน</b>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
                                                 <i class="icon-link"></i>
-                                                นำเข้าฐานข้อมูล
+                                                <b class="cloudFont" style="font-size: 15px">นำเข้าฐานข้อมูล</b>
                                             </a>
                                         </li>
                                          <li>
                                             <a href="#">
                                                 <i class="icon-link"></i>
-                                                ส่งออกฐานข้อมูล
+                                                <b class="cloudFont" style="font-size: 15px">ส่งออกฐานข้อมูล</b>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="icon-link"></i>
+                                                <b class="cloudFont" style="font-size: 15px">ติดต่อเรา</b>
                                             </a>
                                         </li>
                                         
