@@ -15,7 +15,7 @@
 <meta content="" name="description"/>
 <meta content="" name="author"/>
 <!-- BEGIN GLOBAL MANDATORY STYLES -->
-<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css">
 <link href="<?php echo base_url();?>metronic/theme/assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <link href="<?php echo base_url();?>metronic/theme/assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css">
 <link href="<?php echo base_url();?>metronic/theme/assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -200,7 +200,7 @@
                                          <div class="portlet box green">
 						<div class="portlet-title">
 							<div class="caption">
-                                                            <i class="fa  fa-file"></i><label>บันทึกข้อมูล</label>
+                                                            <i class="fa  fa-file"></i><label class="cloudFont">บันทึกข้อมูล</label>
 							</div>
 							<div class="tools">
 								<a href="javascript:;" class="collapse" data-original-title="" title="">
@@ -213,12 +213,12 @@
 							<ul class="nav nav-tabs">
 								<li class="active">
 									<a href="#tab_1_1" data-toggle="tab" aria-expanded="true">
-									สาขา 1 </a>
+                                                                            <b class="cloudFont" style="font-size: 16px">สาขา 1</b></a>
 								
                                                                 </li>
 								<li class="">
 									<a href="#tab_1_2" data-toggle="tab" aria-expanded="false">
-									สาขา 2 </a>
+                                                                            <b class="cloudFont" style="font-size: 16px">สาขา 2 </b></a>
 								</li>
 								
 							</ul>
