@@ -219,7 +219,7 @@ License: You must have a valid license purchased only from themeforest(the above
 					<div class="portlet box blue-hoki">
 						<div class="portlet-title">
 							<div class="caption">
-                                                            <i class="fa fa-book"></i><span class="cloudFont">manual</span>
+                                                            <i class="fa fa-book"></i><span class="cloudFont">วิธีใช้งาน</span>
 							</div>
 							<div class="tools">
 								<a href="javascript:;" class="collapse">

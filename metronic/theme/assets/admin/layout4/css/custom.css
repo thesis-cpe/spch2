@@ -1,9 +1,16 @@
 
 
 @font-face {
-    font-family: cloudFont;
-    src: url(Cloud_LightBold/Cloud_Light.otf);
+  font-family: cloudFont;
+    src: url(font/Cloud_Light.otf);
+    /*font-family: ThSarabun;
+    src: url(font/THSarabun_Bold_0.ttf); */
+    
+    
 }
 .cloudFont {
     font-family: cloudFont;
+    font-size: 20px;
+    
 }
+
