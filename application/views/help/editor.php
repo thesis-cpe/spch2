@@ -109,9 +109,9 @@ License: You must have a valid license purchased only from themeforest(the above
 				<div class="page-toolbar">
 					<!-- BEGIN THEME PANEL -->
 					<div class="btn-group btn-theme-panel">
-					<!--	<a href="javascript:;" class="btn dropdown-toggle" data-toggle="dropdown">
-						<i class="icon-settings"></i> 
-						</a>  -->
+						<a href="javascript:;" class="btn dropdown-toggle" data-toggle="dropdown">
+						<i class="icon-settings"></i>
+						</a>
 						<div class="dropdown-menu theme-panel pull-right dropdown-custom hold-on-click">
 							<div class="row">
 								<div class="col-md-4 col-sm-4 col-xs-12">
@@ -219,17 +219,17 @@ License: You must have a valid license purchased only from themeforest(the above
 					<div class="portlet box blue-hoki">
 						<div class="portlet-title">
 							<div class="caption">
-                                                            <i class="fa fa-book"></i><span class="cloudFont">manual</span>
+								<i class="fa fa-gift"></i>Bootstrap Summernote WYSIWYG Editor
 							</div>
 							<div class="tools">
 								<a href="javascript:;" class="collapse">
 								</a>
-								<!--<a href="#portlet-config" data-toggle="modal" class="config">
-								</a>  -->
+								<a href="#portlet-config" data-toggle="modal" class="config">
+								</a>
 								<a href="javascript:;" class="reload">
 								</a>
-							  <!--	<a href="javascript:;" class="remove">
-								</a> -->
+								<a href="javascript:;" class="remove">
+								</a>
 							</div>
 						</div>
 						<div class="portlet-body form">
@@ -248,8 +248,112 @@ License: You must have a valid license purchased only from themeforest(the above
 					</div>
 				</div>
 			</div>
-		
-		
+			<div class="row">
+				<div class="col-md-12">
+					<!-- BEGIN EXTRAS PORTLET-->
+					<div class="portlet box green-haze">
+						<div class="portlet-title">
+							<div class="caption">
+								<i class="fa fa-gift"></i>Bootstrap Markdown Editor
+							</div>
+							<div class="tools">
+								<a href="javascript:;" class="collapse">
+								</a>
+								<a href="#portlet-config" data-toggle="modal" class="config">
+								</a>
+								<a href="javascript:;" class="reload">
+								</a>
+								<a href="javascript:;" class="remove">
+								</a>
+							</div>
+						</div>
+						<div class="portlet-body form">
+							<form class="form-horizontal form-bordered">
+								<div class="form-body">
+									<div class="form-group">
+										<label class="control-label col-md-2">Default Markdown</label>
+										<div class="col-md-10">
+											<textarea name="content" data-provide="markdown" rows="10"></textarea>
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="control-label col-md-2">Inline Editing</label>
+										<div class="col-md-10">
+											<div data-provide="markdown-editable" class="well">
+												<h3>This is some editable heading</h3>
+												<p>
+													 Well, actually all contents within this "markdown-editable" context is really editable. Just click anywhere!
+												</p>
+											</div>
+											<span class="help-block">
+											Click above content to edit it </span>
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="control-label col-md-2">Fixed Width</label>
+										<div class="col-md-10">
+											<textarea name="content" data-provide="markdown" rows="10" data-width="400" class="form-control"></textarea>
+											<span class="help-block">
+											Fixed widthe set with data-width="400" html attribute </span>
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<!-- BEGIN EXTRAS PORTLET-->
+					<div class="portlet box green">
+						<div class="portlet-title">
+							<div class="caption">
+								<i class="fa fa-gift"></i>WYSIWYG Editors
+							</div>
+							<div class="tools">
+								<a href="javascript:;" class="collapse">
+								</a>
+								<a href="#portlet-config" data-toggle="modal" class="config">
+								</a>
+								<a href="javascript:;" class="reload">
+								</a>
+								<a href="javascript:;" class="remove">
+								</a>
+							</div>
+						</div>
+						<div class="portlet-body form">
+							<!-- BEGIN FORM-->
+							<form action="#" class="form-horizontal form-bordered">
+								<div class="form-body">
+									<div class="form-group">
+										<label class="control-label col-md-2">WYSIHTML5 Editor 1</label>
+										<div class="col-md-10">
+											<textarea class="wysihtml5 form-control" rows="6"></textarea>
+										</div>
+									</div>
+									<div class="form-group last">
+										<label class="control-label col-md-2">WYSIHTML5 Editor 2</label>
+										<div class="col-md-10">
+											<textarea class="wysihtml5 form-control" rows="6"></textarea>
+										</div>
+									</div>
+								</div>
+								<div class="form-actions">
+									<div class="row">
+										<div class="col-md-offset-2 col-md-10">
+											<button type="submit" class="btn green"><i class="fa fa-check"></i> Submit</button>
+											<button type="button" class="btn default">Cancel</button>
+										</div>
+									</div>
+								</div>
+							</form>
+							<!-- END FORM-->
+						</div>
+					</div>
+					<!-- END EXTRAS PORTLET-->
+				</div>
+			</div>
 			<!-- END PAGE CONTENT-->
 		</div>
 	</div>
