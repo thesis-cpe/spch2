@@ -19,7 +19,7 @@ class Authen extends CI_Controller {
     /*เข้าสู่ระบบ*/
     public function login(){
          $this->load->view('authen/login_view');
-       // echo "Hello";
+       
     }
     /*ออกจากระบบ*/
     public function logout(){
