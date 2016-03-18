@@ -18,6 +18,7 @@ class Help extends CI_Controller {
     
     public function manual(){
         $this->load->view('help/manual_view');
+        
     }
     /*นำเข้าข้อมูลเดิม*/
     public function import(){
@@ -26,5 +27,9 @@ class Help extends CI_Controller {
     /*ส่งออกข้อมูล*/
      public function export(){
         
+    }
+    /*บันทีกเนื้อหาลง db*/
+    public function content(){
+        $this->input->post('');
     }
 }
