@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html ng-app="nameApp">
+    <head>
+        <title>Ex13: Changing scope values asynchronously - updates propagate .apply().</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.1/angular.min.js"></script>
+        <script>
+            var nameApp = angular.module('nameApp', []);
+            nameApp.controller('nameCtrl', function ($scope) {
+               $scope.fname = 'witthayaniphon';
+                $scope.$watch('lname', function (newValue, oldValue) {
+                    console.log('new value is' + newValue);
+                });
+
+                setTimeout(function () {
+                     
+                    $scope.lname = 'Thaenthong'
+                    $scope.nick = 'Bank'
+                    $scope.$apply();
+                },1000);
+
+            });
+        </script>
+    </head>
+    <body ng-controller="nameCtrl">
+        first name: <input type="text" ng-model="fname">
+        <br>
+        last name: <input type="text" ng-model="lname">
+        <br>
+         last name: <input type="text" ng-model="nick">
+        <br>
+        output {{fname}} {{lname}} {{nick}}
+        
+    </body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html ng-app="countryApp">
+    <head>
+        <title>Ex25: Sorting table columns interactively.</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.1/angular.min.js"></script>
+        <script>
+            var countryApp = angular.module('countryApp', []);
+
+            countryApp.controller('countryCtrl', function ($scope, $http) {
+                $http.get('../countries.json').success(function (data) {
+                    $scope.countries = data;
+                });
+             $scope.sortFeid = 'population';
+    });
+
+        </script>
+    </head>
+    <body ng-controller="countryCtrl">
+        Search: <input type="text" ng-model="search"> 
+        <a href="" ng-click="sortFeid = '-population'">ประชากร มาก -> น้อย</a>
+        <a href="" ng-click="sortFeid = 'population'">ประชากร น้อย -> มาก</a>
+        <table>
+
+            <tr>
+                <th><a href="" ng-click="sortFeid = 'name'">Country</a></th>
+                <th><a href="" ng-click="sortFeid = 'population'">Population</a></th>
+            </tr>
+
+            <tr ng-repeat="Country in countries| filter : search | orderBy : sortFeid">
+                <td>{{Country.name}}</td>
+                <td>{{Country.population}}</td>
+            </tr>
+
+        </table>
+    </body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html ng-app="nameApp">
+    <head >
+        <title>Ex15: Adding entries to a list using forms and ng-submit.</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.1/angular.min.js"></script>
+        <script>
+            var nameApp = angular.module('nameApp', []);
+            nameApp.controller('nameCtrl', function ($scope) {
+                $scope.names = ['Larry', 'Curly', 'Moe', 'Thesis'];
+
+                $scope.addName = function () {
+                    $scope.names.push($scope.enteredName);
+                };
+            });
+        </script>
+    </head>
+    <body ng-controller="nameCtrl">
+        <ul>
+            <li ng-repeat="name in names">{{name}}</li>
+        </ul>
+        <form ng-submit="addName()">
+            <input type="text" ng-model="enteredName">
+            <button type="submit">submit</button>
+
+        </form>
+    </body>
+</html>
