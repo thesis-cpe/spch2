@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html ng-app="countryApp">
+    <head>
+        <title>Ex28: Using ng-src.</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.1/angular.min.js"></script>
+        <script>
+            var countryApp = angular.module('countryApp', []);
+
+            countryApp.controller('countryCtrl', function ($scope, $http) {
+                $http.get('../flag.json').success(function (data) {
+                    $scope.countries = data;
+                });
+                $scope.sFeid = 'population';
+                $scope.reCol = true;
+            });
+
+        </script>
+    </head>
+    <body ng-controller="countryCtrl">
+        Search: <input type="text" ng-model="search"> 
+
+        <table>
+
+            <tr>
+                <th><a href="" ng-click="sFeid = 'name'; reCol = !reCol">Country</a></th>
+                <th><a href="" ng-click="sFeid = 'population'; reCol = !reCol">Population</a></th>
+                <th>flag</th>
+            </tr>
+
+            <tr ng-repeat="Country in countries | filter : search | orderBy : sFeid: reCol">
+                <td>{{Country.name}}</td>
+                <td>{{Country.population}}</td>
+                <td><img ng-src="{{Country.flagURL}}" width="100px"><td>
+            </tr>
+
+        </table>
+    </body>
+</html>

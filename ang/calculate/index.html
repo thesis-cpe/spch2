@@ -1,0 +1,63 @@
+
+<html ng-app="calculate">
+    <head>
+        <title></title>
+
+        <link rel="stylesheet" type="text/css" href="cal.css">
+
+
+    </head>
+    <body>
+
+
+
+        <div class="box" ng-controller="Main">
+            <div class="display">
+
+                <input ng-model="string" type="text" readonly size="15" id="d"></div>
+            <div class="keys">
+                
+                <p>
+                    <input type="button" class="button gray" value="mrc" ng-click="cal('5')">
+                    <input type="button" class="button gray" value="m-" ng-click="cal('m-')" >
+                    <input type="button" class="button gray" value="m+" ng-click="cal('m+')"  >
+                    <input type="button" class="button pink" value="/" ng-click="cal('/')"   >
+                </p>
+                
+                <p>
+                    <input type="button" class="button black"  value="7" ng-click="cal('7')" >
+                    <input type="button" class="button black" value="8" ng-click="cal('8')">
+                    <input type="button" class="button black" value="9" ng-click="cal('9')">
+                    <input type="button" class="button pink" value="*" ng-click="cal('*')">
+                </p>
+                
+                <p>
+                    <input type="button" class="button black" value="4" ng-click="cal('4')">
+                    <input type="button" class="button black" value="5" ng-click="cal('5')">
+                    <input type="button" class="button black" value="6" ng-click="cal('6')">
+                    <input type="button"  class="button pink" value="-"  ng-click="cal('-')">
+                </p>
+                
+                <p>
+                    <input type="button" class="button black" value="1" ng-click="cal('1')">
+                    <input type="button" class="button black" value="2" ng-click="cal('2')">
+                    <input type="button" class="button black" value="3" ng-click="cal('3')">
+                    <input type="button" class="button pink" value="+" ng-click="cal('+')" >
+                </p>
+                
+                <p>
+                    <input type="button" class="button black" value="0" ng-click="cal('0')">
+                    <input type="button" class="button black" value="." ng-click="cal('.')">
+                    <input type="button" class="button black" value="C" ng-click="clear()">
+                    <input type="button" class="button orange" value="=" ng-click="sum()">
+                </p>
+            </div>
+        </div>
+        <!-- Angular web application framework -->
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.10/angular.min.js"></script>
+
+        <script type="text/javascript" src='app.js' ></script>
+
+    </body>
+</html>
+
